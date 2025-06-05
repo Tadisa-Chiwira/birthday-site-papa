@@ -54,3 +54,29 @@ body {
     }
 }
  
+/* Mobile optimization */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        padding-top: 20px; /* Adjust padding for smaller screens */
+    }
+
+    #cupcake {
+        width: 100%; /* Make cupcake image responsive */
+        margin: 10px auto; /* Adjust margin for better spacing */
+    }
+
+    #blow-out-btn {
+        padding: 10px 20px; /* Reduce button padding */
+        font-size: 1rem; /* Adjust button font size */
+        margin-top: 5px; /* Adjust spacing */
+    }
+
+    .letter {
+        padding: 15px; /* Reduce padding */
+        max-width: 90%; /* Make the letter container responsive */
+        margin: 10px auto; /* Adjust margin for better spacing */
+        font-size: 1rem; /* Adjust font size for readability */
+        line-height: 28px; /* Adjust line height to match smaller font size */
+    }
+}
