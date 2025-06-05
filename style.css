@@ -78,5 +78,7 @@ body {
         margin: 10px auto; /* Adjust margin for better spacing */
         font-size: 1rem; /* Adjust font size for readability */
         line-height: 28px; /* Adjust line height to match smaller font size */
+        background: repeating-linear-gradient(180deg, #000000 0, #000000 1px, transparent 1px, transparent 28px), /* Adjust spacing for mobile */
+                    linear-gradient(rgb(241, 217, 196) 90%, #f0f0f0 100%); /* Base white background */
     }
 }
