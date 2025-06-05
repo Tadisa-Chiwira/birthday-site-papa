@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #6cc4df;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  #cupcake {
+    width: 800px;
+    margin: 2px auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  #blow-out-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #145ab4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 2px;
+  }
+  
+  #blow-out-btn:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  .letter {
+    animation: fadeIn 2s ease-in forwards;
+    opacity: 0;
+    background: repeating-linear-gradient(180deg, #000000 0, #000000 1px, transparent 1px, transparent 36px), /* Horizontal paper lines */
+                linear-gradient(rgb(241, 217, 196) 90%, #f0f0f0 100%); /* Base white background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    margin: 2px auto; /* Bring closer to the top */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Georgia', monospace;
+    line-height: 36px;
+    margin-top: 2px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+ 
